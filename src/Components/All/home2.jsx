@@ -3,7 +3,7 @@ import Nav from '../Nav/Nav'
 import About from './About'
 import Foot from '../Footer/Foot'
 
-const home2 = () => {
+const Home2 = () => {
   return (
     <>
 
@@ -14,4 +14,4 @@ const home2 = () => {
   )
 }
 
-export default home2
+export default Home2

@@ -3,8 +3,9 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import AllIn from './Components/All/AllIn';
 import Layout from './Layout';
-import About from './Components/All/About';
+// import About from './Components/All/About';
 import Trophy from './Components/All/Trophy';
+import Home2 from './Components/All/home2';
 
 
 
@@ -18,13 +19,17 @@ function App() {
       
     },
     {
+      path: "/about",
+      element: <Home2/>
+    },
+    {
       path: "/",
       element:<Layout/>,
       children: [
-        {
-          path: "/about",
-          element: <About/>
-        },
+        // {
+        //   path: "/about",
+        //   element: <About/>
+        // },
         {
           path: "/trophy",
           element: <Trophy/>
