@@ -2,10 +2,9 @@
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import './App.css'
 import AllIn from './Components/All/AllIn';
-import Layout from './Layout';
-// import About from './Components/All/About';
-import Trophy from './Components/All/Trophy';
-import Home2 from './Components/All/home2';
+
+import About1 from './Components/All/About1';
+import Tro from './Components/All/Tro';
 
 
 
@@ -19,23 +18,19 @@ function App() {
       
     },
     {
-      path: "/about",
-      element: <Home2/>
+      path:"/about",
+      element:<About1/>
     },
     {
-      path: "/",
-      element:<Layout/>,
-      children: [
-        // {
-        //   path: "/about",
-        //   element: <About/>
-        // },
+      path:"/about",
+      element:<About1/>
+    },
+    
         {
           path: "/trophy",
-          element: <Trophy/>
+          element: <Tro/>
         }
-      ]
-    }
+    
   ]);
   return (
     <>
