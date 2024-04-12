@@ -31,8 +31,8 @@ const Nav = () => {
         </div>
       </nav> */}
       <li><a href="">Home</a></li>
-      <li><a href="">About</a></li>
-      <li><a href="">Trophy</a></li>
+      <li><a href="about">About</a></li>
+      <li><a href="trophy">Trophy</a></li>
       <hr />
     </>
   )
