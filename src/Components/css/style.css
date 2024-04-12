@@ -1,0 +1,139 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.head {
+    background-color: #2C8CF0;
+    padding: 47px 0px;
+}
+.main-img{
+    height: 400px;
+   
+}
+.main-img1{
+    height: 500px;
+    width: 545px;
+   
+}
+.main-img2{
+    height: 440px;
+    position: relative;
+    left: 16%;
+   
+}
+.ic-img{
+    height: 50px;
+    width: 50px;
+    margin-left: 40px;
+}
+.jr-img{
+    height: 350px;
+    width: 250px;
+    border-radius: 10%;
+    cursor: pointer;
+}
+.jr-img:hover{
+   border: 2px solid black;
+   transform: scale(1.1);
+}
+.foot{
+    margin-top: 100px;
+    /* border: 1px solid blue; */
+    border-radius: 0% 0% 15% 15%;
+}
+h1{
+    font-family: "PT Serif", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.sd{
+    font-family: "Tangerine", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.navv{
+   
+    /* border: 1px solid blue; */
+    border-radius:15% 15%  0% 0%;
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.jr-2{
+    margin-top: 100px;
+}
+.ho-p{
+    font-size: 1.2vw;
+    font-weight: 600;
+    color: #666;
+    width: 80%;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+}
+.Ho-btn{
+
+    font-size: 1.2vw;
+        padding: 1.3vw 2.3vw;
+        background-color: #2C8CF0;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        font-weight: 700;
+}
+.jr-h{
+    font-family: "Bungee Spice", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.yt{
+    width: 50%;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    position: relative;
+    left: 24%;
+}
+.ty-img{
+    height: 400px;
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 10%;
+}
+.ty-img:hover{
+ transform: scale(1.1);
+}
+.ICC h3 {
+    font-family: "Rubik Doodle Shadow";
+    font-weight: 400;
+    font-style: normal;
+}
+.ICC p {
+    font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+ 
+  font-style: normal;
+}
+.yt-ic {
+  
+    position: absolute;
+    left: 42%;
+    top: 35%;
+    font-size: 100px;
+  
+}
+.ytt{
+    position: relative;
+}
+
+.about h2{
+color: #2C8CF0;
+margin-bottom: 50px;
+font-family: "Platypi", serif;
+}
+.about p{
+    font-family: "Playfair Display", serif;
+}
+.about h3{
+    font-family: "Sedan", serif;
+}
